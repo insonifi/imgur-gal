@@ -1,0 +1,26 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/lodash/fp/getOr.js":
+false,
+
+/***/ "./src/components/Album.jsx":
+false,
+
+/***/ "./src/components/Grid.jsx":
+/*!*********************************!*\
+  !*** ./src/components/Grid.jsx ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nSyntaxError: /home/andrey/workspace/imgur-gal/src/components/Grid.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (39:2)\\n\\n\\u001b[0m \\u001b[90m 37 | \\u001b[39m\\t\\t\\t))}\\u001b[0m\\n\\u001b[0m \\u001b[90m 38 | \\u001b[39m\\t\\t\\u001b[33m<\\u001b[39m\\u001b[33m/\\u001b[39m\\u001b[33mdiv\\u001b[39m\\u001b[33m>\\u001b[39m\\u001b[0m\\n\\u001b[0m\\u001b[31m\\u001b[1m>\\u001b[22m\\u001b[39m\\u001b[90m 39 | \\u001b[39m\\t\\t\\u001b[33m<\\u001b[39m\\u001b[33mDetailedFigure\\u001b[39m open\\u001b[33m=\\u001b[39m{selected} image\\u001b[33m=\\u001b[39m{image} onClose\\u001b[33m=\\u001b[39m{handleSelect} \\u001b[33m/\\u001b[39m\\u001b[33m>\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m    | \\u001b[39m\\t\\t\\u001b[31m\\u001b[1m^\\u001b[22m\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 40 | \\u001b[39m\\t)\\u001b[33m;\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 41 | \\u001b[39m}\\u001b[0m\\n\\u001b[0m \\u001b[90m 42 | \\u001b[39m\\u001b[0m\\n    at _class.raise (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:4028:15)\\n    at _class.jsxParseElementAt (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:3702:14)\\n    at _class.jsxParseElement (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:3712:19)\\n    at _class.parseExprAtom (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:3719:21)\\n    at _class.parseExprSubscripts (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:6081:21)\\n    at _class.parseMaybeUnary (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:6060:21)\\n    at _class.parseExprOps (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:5945:21)\\n    at _class.parseMaybeConditional (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:5917:21)\\n    at _class.parseMaybeAssign (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:5864:21)\\n    at _class.parseMaybeAssign (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:2766:57)\\n    at _class.parseParenAndDistinguishExpression (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:6676:28)\\n    at _class.parseParenAndDistinguishExpression (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:2860:71)\\n    at _class.parseExprAtom (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:6450:21)\\n    at _class.parseExprAtom (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:3724:52)\\n    at _class.parseExprSubscripts (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:6081:21)\\n    at _class.parseMaybeUnary (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:6060:21)\\n    at _class.parseExprOps (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:5945:21)\\n    at _class.parseMaybeConditional (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:5917:21)\\n    at _class.parseMaybeAssign (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:5864:21)\\n    at _class.parseMaybeAssign (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:2807:53)\\n    at _class.parseExpression (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:5817:21)\\n    at _class.parseReturnStatement (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:7836:28)\\n    at _class.parseStatementContent (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:7512:21)\\n    at _class.parseStatement (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:7478:17)\\n    at _class.parseStatement (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:2134:57)\\n    at _class.parseBlockOrModuleBlockBody (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:8046:23)\\n    at _class.parseBlockBody (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:8033:10)\\n    at _class.parseBlock (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:8022:10)\\n    at _class.parseFunctionBody (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:7130:24)\\n    at _class.parseFunctionBody (/home/andrey/workspace/imgur-gal/node_modules/@babel/parser/lib/index.js:2111:54)\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9HcmlkLmpzeC5qcyIsInNvdXJjZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/components/Grid.jsx\n");
+
+/***/ }),
+
+/***/ "./src/containers/Images/index.js":
+false,
+
+/***/ "./src/containers/List/index.js":
+false
+
+})
