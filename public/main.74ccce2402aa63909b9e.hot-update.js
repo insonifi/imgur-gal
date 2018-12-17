@@ -1,0 +1,15 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/components/Votes.jsx":
+/*!**********************************!*\
+  !*** ./src/components/Votes.jsx ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_jss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-jss */ \"./node_modules/react-jss/lib/index.js\");\n/* harmony import */ var react_jss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_jss__WEBPACK_IMPORTED_MODULE_1__);\n\n\nvar styles = {\n  up: {\n    backgroundColor: 'darkgreen',\n    borderRadius: [['50%', 0, 0, '50%']]\n  },\n  down: {\n    backgroundColor: 'brickred',\n    borderRadius: [[0, '50%', '50%', 0]]\n  }\n};\n\nfunction Votes(_ref) {\n  var classes = _ref.classes,\n      up = _ref.up,\n      down = _ref.down;\n  return react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](react__WEBPACK_IMPORTED_MODULE_0__[\"Fragment\"], null, react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"span\", {\n    className: classes.up\n  }, up), react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"span\", {\n    className: classes.down\n  }, down));\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (react_jss__WEBPACK_IMPORTED_MODULE_1___default()(styles)(Votes));//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9Wb3Rlcy5qc3guanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvY29tcG9uZW50cy9Wb3Rlcy5qc3g/OWMzYiJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBAZmxvd1xuXG5pbXBvcnQgKiBhcyBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgaW5qZWN0U2hlZXQgZnJvbSAncmVhY3QtanNzJztcblxuY29uc3Qgc3R5bGVzID0ge1xuXHR1cDoge1xuXHRcdGJhY2tncm91bmRDb2xvcjogJ2RhcmtncmVlbicsXG5cdFx0Ym9yZGVyUmFkaXVzOiBbWyc1MCUnLCAwLCAwLCAnNTAlJ11dLFxuXHR9LFxuXHRkb3duOiB7XG5cdFx0YmFja2dyb3VuZENvbG9yOiAnYnJpY2tyZWQnLFxuXHRcdGJvcmRlclJhZGl1czogW1swLCAnNTAlJywgJzUwJScsIDBdXSxcblx0fSxcbn07XG5cbnR5cGUgUHJvcHMgPSB7XG5cdGNsYXNzZXM6IE9iamVjdCxcblx0dXA6IG51bWJlcixcblx0ZG93bjogbnVtYmVyLFxufTtcblxuZnVuY3Rpb24gVm90ZXMoe2NsYXNzZXMsIHVwLCBkb3dufTogUHJvcHMpIHtcblx0cmV0dXJuIChcblx0XHQ8PlxuXHRcdFx0PHNwYW4gY2xhc3NOYW1lPXtjbGFzc2VzLnVwfT57dXB9PC9zcGFuPlxuXHRcdFx0PHNwYW4gY2xhc3NOYW1lPXtjbGFzc2VzLmRvd259Pntkb3dufTwvc3Bhbj5cblx0XHQ8Lz5cblx0KTtcbn1cblxuZXhwb3J0IGRlZmF1bHQgaW5qZWN0U2hlZXQoc3R5bGVzKShWb3Rlcyk7XG4iXSwibWFwcGluZ3MiOiJBQUVBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBRUE7QUFDQTtBQUNBO0FBQ0E7QUFGQTtBQUlBO0FBQ0E7QUFDQTtBQUZBO0FBTEE7QUFDQTtBQWdCQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBRUE7QUFBQTtBQUNBO0FBQUE7QUFHQTtBQUNBO0FBQ0EiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/components/Votes.jsx\n");
+
+/***/ })
+
+})
