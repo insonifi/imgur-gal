@@ -2,8 +2,7 @@
 	"root": true,
 	"env": {
 		"browser": true,
-		"es6": true,
-		"worker": true
+		"es6": true
 	},
 	"parser": "babel-eslint",
 	"parserOptions": {
@@ -13,51 +12,12 @@
 			"experimentalObjectRestSpread": true
 		}
 	},
-	"plugins": ["flowtype", "lodash-fp", "import", "react-hooks"],
-	"extends": ["airbnb", "prettier"],
-	"rules": {
-		"flowtype/boolean-style": [
-			"error", "boolean"
-		],
-		"flowtype/define-flow-type": "warn",
-		"flowtype/delimiter-dangle": 0,
-		"flowtype/generic-spacing": [
-			"error", "never"
-		],
-		"flowtype/no-dupe-keys": "error",
-		"flowtype/no-weak-types": 0,
-		"flowtype/require-parameter-type": [
-			"off", {
-				"excludeArrowFunctions": "expressionsOnly"
-			}],
-		"flowtype/require-return-type": [
-			"off", {
-				"excludeArrowFunctions": "expressionsOnly"
-			}],
-		"flowtype/require-valid-file-annotation": 0,
-		"flowtype/semi": "error",
-		"flowtype/space-after-type-colon": [
-			"error", "always"],
-		"flowtype/space-before-generic-bracket": [
-			"error", "never"
-		],
-		"flowtype/space-before-type-colon": [
-			"error", "never"
-		],
-		"flowtype/type-id-match": 0,
-		"flowtype/union-intersection-spacing": [
-			"error", "always"
-		],
-		"flowtype/use-flow-type": "warn",
-		"flowtype/valid-syntax": "warn",
-		"react/jsx-indent": [2, "tab"],
-		"react/jsx-indent-props": [2, "tab"],
-		"react-hooks/rules-of-hooks": "error"
-	},
+	"plugins": ["flowtype", "lodash-fp", "import", "react", "react-hooks"],
+	"extends": ["airbnb", "plugin:flowtype/recommended", "prettier", "prettier/react"],
 	"settings": {
 		"import/resolver": {
 			"webpack": {
-				"config": "webpack/webpack.base.js"
+				"config": "webpack.config.js"
 			}
 		}
 	}

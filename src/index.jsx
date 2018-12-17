@@ -1,8 +1,29 @@
 // @flow
 
-import * as React from "react";
-import * as ReactDOM from "react-dom";
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import {Provider} from 'react-redux';
+import 'babel-polyfill';
 
-import App from "containers/App";
+import store from 'store';
+import App from 'containers/App';
 
-ReactDOM.render(document.body, <App />);
+const appDiv = document.createElement('div');
+const portalDiv = document.createElement('div');
+let body = document.querySelector('body');
+
+if (!body) {
+	body = document.createElement('body');
+	document.appendChild(body);
+}
+
+body.appendChild(appDiv);
+body.appendChild(portalDiv);
+portalDiv.id = 'portal';
+
+ReactDOM.render(
+	<Provider store={store}>
+		<App />
+	</Provider>,
+	appDiv
+);
